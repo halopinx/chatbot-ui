@@ -1,0 +1,8 @@
+@keyframes wave {
+  0%, 60%, 100% {
+    transform: initial;
+  }
+  30% {
+    transform: translateY(-4px);
+  }
+}

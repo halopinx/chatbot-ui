@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dist/css/chatbot.min.css">
+</head>
+<body>
+<div class="chatbot-page-wrapper">
+    <h1>H1 heading sample</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus excepturi id illo obcaecati reprehenderit sint voluptates? Cumque eos laborum minus? Cum delectus dolorem ipsum neque possimus provident repellat, tempora tenetur! Cum delectus dolorem ipsum neque possimus provident repellat, tempora tenetur!</p>
+</div>
+<div class="chatbot-offset-wrapper">
+  <div class="chatbot-offset-inner">
+      <div class="chatbot-overall-wrapper">
+          <div class="chatbot-float-button">
+              <div class="chatbot-button-icon" id="chatbot-button-icon">
+                  <i class="icon icon-bot-lined"></i>
+                  <div class="chatbot-hover-message">Let's chat</div>
+              </div>
+          </div>
+          <div class="chatbot">
+              <div class="chatbot_inner-wrapper">
+                  <div class="chatbot-holder">
+                      <div class="chatbot-holder_conversation-screen">
+                          <div class="conversation-block conversation-bot conversation-bot--first conversation-bot--choices">
+                              <div class="message-entered">How can I help? Perhaps you are searching for one of the below.</div>
+                              <div class="conversation-bot-icon"><i class="icon icon-bot"></i></div>
+                              <div class="bot-result">
+                                  <div class="bot-result--choices">
+                                      <div class="bot-result--choices--item bot-result--choices--item-active">
+                                          <a>
+                                              <i class="icon-css icon-glyph-packages"></i>
+                                              <span>Packages</span>
+                                          </a>
+                                      </div>
+                                      <div class="bot-result--choices--item">
+                                          <a>
+                                              <i class="icon-css icon-glyph-home-designs"></i>
+                                              <span>Home Designs</span>
+                                          </a>
+                                      </div>
+                                      <div class="bot-result--choices--item">
+                                          <a>
+                                              <i class="icon-css icon-glyph-displays"></i>
+                                              <span>Displays</span>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="conversation-block conversation-user conversation-user--first">
+                              <div class="save-timestamp">13:07 PM</div>
+                              <div class="message-entered">I am looking a single storey home</div>
+                          </div>
+                          <div class="conversation-block conversation-bot conversation-bot--first">
+                              <div class="save-timestamp">13:07 PM</div>
+                              <div class="message-entered">Response to go here in this space</div>
+                          </div>
+                          <div class="conversation-block conversation-bot conversation-bot--oneline">
+                              <div class="message-entered">Response to go here</div>
+                              <div class="conversation-bot-icon"><i class="icon icon-bot"></i></div>
+                          </div>
+                          <div class="conversation-block conversation-user conversation-user--first">
+                              <div class="save-timestamp">13:07 PM</div>
+                              <div class="message-entered">I am looking a single storey home</div>
+                          </div>
+                          <div class="conversation-block conversation-user conversation-user--oneline">
+                              <div class="message-entered">Shorter response</div>
+                          </div>
+                          <div class="conversation-block conversation-bot conversation-bot--first">
+                              <div class="message-entered">This is what I have found</div>
+                              <div class="bot-result">
+                                  <div class="bot-result--link">
+                                      <a href="#"><i class="icon-css icon-circle-arrow"></i><span class="text">I have found you 22 Floor Plans that fit your requirements</span></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="conversation-block conversation-bot conversation-bot--first">
+                              <div class="message-entered">Do you want to leave your details?</div>
+                              <div class="conversation-bot-icon"><i class="icon icon-bot"></i></div>
+                              <div class="bot-result">
+                                  <div class="bot-result--cta-options">
+                                      <button class="chatbot-button">Yes</button>
+                                      <button class="chatbot-button">No</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="conversation-block conversation-bot conversation-bot--form">
+                              <div class="bot-result">
+                                  <div class="bot-result--cta-form">
+                                      <form>
+                                          <div class="field-input"><input type="text" placeholder="Name"></div>
+                                          <div class="field-input"><input type="text" placeholder="Last Name"></div>
+                                          <div class="field-input"><input type="tel" placeholder="Phone #"></div>
+                                          <div class="field-input"><input type="email" placeholder="Email"></div>
+                                          <div class="field-submit"><input type="submit" value="Submit" class="chatbot-button"></div>
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="conversation-block conversation-bot conversation-bot--replying">
+                              <div class="replying-dots">
+                                  <span class="dot"></span>
+                                  <span class="dot"></span>
+                                  <span class="dot"></span>
+                              </div>
+                              <div class="conversation-bot-icon"><i class="icon icon-bot-dark"></i></div>
+                          </div>
+                      </div>
+                      <div class="chatbot-holder_conversation-composer">
+                          <textarea placeholder="Type your enquiry here.." id="chatbot-conversation-composer"></textarea>
+                      </div>
+                      <div class="chatbot-float-action-buttons">
+                          <button class="chatbot-close-button" id="chatbot-close-button"></button>
+                          <div class="chatbot-icon-holder"><i class="icon icon-bot"></i></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<script src="dist/js/chatbot.min.js"></script>
+</body>
+</html>
